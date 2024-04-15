@@ -29,7 +29,7 @@ static void write_register(uint8_t channel, uint16_t data) {
 int main() {
     stdio_init_all();
     // This example will use SPI0 at 0.5MHz.
-    spi_init(spi_default, 50 * 1000);
+    spi_init(spi_default, 500 * 1000);
     gpio_set_function(PICO_DEFAULT_SPI_RX_PIN, GPIO_FUNC_SPI);
     gpio_set_function(PICO_DEFAULT_SPI_SCK_PIN, GPIO_FUNC_SPI);
     gpio_set_function(PICO_DEFAULT_SPI_TX_PIN, GPIO_FUNC_SPI);
@@ -42,7 +42,7 @@ int main() {
     // Make the CS pin available to picotool
 
     while (true) {
-        //write_register(0, 0b0000000000); //writing to channel a
+        // write_register(0, 0b0000000000); //writing to channel a
         for (int i=0; i<50; i++) {
             uint16_t data = (double) i / 50 * 1023;
             write_register(0, data);
@@ -51,20 +51,13 @@ int main() {
             uint16_t data = (double) i /50 * 1023;
             write_register(0, data);
         }
-        write_register(1, 0b0000000000); //writing to channel b
-        double frequency = 2.0;
-        for (int i=0; i< 100; i++) {
-            double value = sin(2 * M_PI * frequency * i / 50);   
+        //write_register(1, 0b0000000000); //writing to channel b
+        for (int i=0; i<= 100; i++) {
+            double fr = 1.0;
+            double value = sin(2 * M_PI * fr * i / 50);   
             uint16_t data = (uint16_t)((value + 1) * 511.5); 
             write_register(1, data);
         }
-        // uint8_t buf[2];
-        // buf[0] = 0b01111111;
-        // buf[1] = 0b11111111;
-        // gpio_put(17, 0);
-        // spi_write_blocking(spi_default, buf, 2);
-        // gpio_put(17, 1);
-        //write_register(0, 0b1111111111);
     }
 
 }
