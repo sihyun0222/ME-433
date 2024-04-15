@@ -115,8 +115,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-yg4u82"
-      binary: "C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-yg4u82"
+      source: "C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-lh95n7"
+      binary: "C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-lh95n7"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_C_FLAGS_DEBUG: "-Og -g"
@@ -126,13 +126,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-yg4u82'
+        Change Dir: 'C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-lh95n7'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_a358c/fast
-        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_a358c.dir/build.make CMakeFiles/cmTC_a358c.dir/build
-        make.exe[1]: Entering directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-yg4u82'
-        Building C object CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj
-        "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_55f1c/fast
+        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_55f1c.dir/build.make CMakeFiles/cmTC_55f1c.dir/build
+        make.exe[1]: Entering directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-lh95n7'
+        Building C object CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj
+        "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
         Target: arm-none-eabi
@@ -140,8 +140,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\hyunk\\AppData\\Local\\Temp\\cc8D93BF.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccJo678n.s
         GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -162,14 +162,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj C:\\Users\\hyunk\\AppData\\Local\\Temp\\cc8D93BF.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccJo678n.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
         COMPILER_PATH=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-        Linking C executable cmTC_a358c.elf
-        "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe" -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v "CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj"  -o cmTC_a358c.elf
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        Linking C executable cmTC_55f1c.elf
+        "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe" -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v "CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj"  -o cmTC_55f1c.elf
         Using built-in specs.
         COLLECT_GCC=C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
         COLLECT_LTO_WRAPPER=c:/program\\ files/raspberry\\ pi/pico\\ sdk\\ v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
@@ -180,11 +180,11 @@ events:
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
         COMPILER_PATH=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a358c.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccmHOvvR.res --sysroot=c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_a358c.elf -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_55f1c.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccVot4by.res --sysroot=c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_55f1c.elf -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj
         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a358c.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-        make.exe[1]: Leaving directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-yg4u82'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_55f1c.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        make.exe[1]: Leaving directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-lh95n7'
         
       exitCode: 0
   -
@@ -217,13 +217,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-yg4u82']
+        ignore line: [Change Dir: 'C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-lh95n7']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_a358c/fast]
-        ignore line: [C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_a358c.dir/build.make CMakeFiles/cmTC_a358c.dir/build]
-        ignore line: [make.exe[1]: Entering directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-yg4u82']
-        ignore line: [Building C object CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj]
-        ignore line: ["C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_55f1c/fast]
+        ignore line: [C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_55f1c.dir/build.make CMakeFiles/cmTC_55f1c.dir/build]
+        ignore line: [make.exe[1]: Entering directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-lh95n7']
+        ignore line: [Building C object CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj]
+        ignore line: ["C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
@@ -231,8 +231,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\hyunk\\AppData\\Local\\Temp\\cc8D93BF.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccJo678n.s]
         ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
@@ -253,8 +253,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: f3937ce18b4177bfd408ca565336596a]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj C:\\Users\\hyunk\\AppData\\Local\\Temp\\cc8D93BF.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccJo678n.s]
         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
         ignore line: [COMPILER_PATH=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/]
@@ -266,9 +266,9 @@ events:
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [Linking C executable cmTC_a358c.elf]
-        ignore line: ["C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe" -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v "CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj"  -o cmTC_a358c.elf]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [Linking C executable cmTC_55f1c.elf]
+        ignore line: ["C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe" -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v "CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj"  -o cmTC_55f1c.elf]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=c:/program\\ files/raspberry\\ pi/pico\\ sdk\\ v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
@@ -287,12 +287,12 @@ events:
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a358c.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccmHOvvR.res --sysroot=c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_a358c.elf -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_a358c.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_55f1c.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccVot4by.res --sysroot=c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_55f1c.elf -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_55f1c.dir/CMakeCCompilerABI.c.obj]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a358c.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [make.exe[1]: Leaving directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-yg4u82']
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_55f1c.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [make.exe[1]: Leaving directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-lh95n7']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -310,8 +310,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-4xwukb"
-      binary: "C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-4xwukb"
+      source: "C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-c24cr1"
+      binary: "C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-c24cr1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
@@ -321,13 +321,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-4xwukb'
+        Change Dir: 'C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-c24cr1'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_57a4e/fast
-        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_57a4e.dir/build.make CMakeFiles/cmTC_57a4e.dir/build
-        make.exe[1]: Entering directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-4xwukb'
-        Building CXX object CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj
-        "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_21486/fast
+        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_21486.dir/build.make CMakeFiles/cmTC_21486.dir/build
+        make.exe[1]: Entering directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-c24cr1'
+        Building CXX object CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe
         Target: arm-none-eabi
@@ -335,8 +335,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccz3Y4ab.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccLh3rv2.s
         GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -363,14 +363,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccz3Y4ab.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccLh3rv2.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
         COMPILER_PATH=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-        Linking CXX executable cmTC_57a4e.elf
-        "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe" -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v "CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj"  -o cmTC_57a4e.elf
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        Linking CXX executable cmTC_21486.elf
+        "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe" -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v "CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj"  -o cmTC_21486.elf
         Using built-in specs.
         COLLECT_GCC=C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe
         COLLECT_LTO_WRAPPER=c:/program\\ files/raspberry\\ pi/pico\\ sdk\\ v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
@@ -381,11 +381,11 @@ events:
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
         COMPILER_PATH=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_57a4e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccJyYx2n.res --sysroot=c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_57a4e.elf -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_21486.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccJc4Mfi.res --sysroot=c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_21486.elf -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj
         c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_57a4e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-        make.exe[1]: Leaving directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-4xwukb'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_21486.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        make.exe[1]: Leaving directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-c24cr1'
         
       exitCode: 0
   -
@@ -424,13 +424,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-4xwukb']
+        ignore line: [Change Dir: 'C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-c24cr1']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_57a4e/fast]
-        ignore line: [C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_57a4e.dir/build.make CMakeFiles/cmTC_57a4e.dir/build]
-        ignore line: [make.exe[1]: Entering directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-4xwukb']
-        ignore line: [Building CXX object CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: ["C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_21486/fast]
+        ignore line: [C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_21486.dir/build.make CMakeFiles/cmTC_21486.dir/build]
+        ignore line: [make.exe[1]: Entering directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-c24cr1']
+        ignore line: [Building CXX object CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: ["C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe"   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe]
         ignore line: [Target: arm-none-eabi]
@@ -438,8 +438,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccz3Y4ab.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccLh3rv2.s]
         ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
@@ -466,8 +466,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccz3Y4ab.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccLh3rv2.s]
         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
         ignore line: [COMPILER_PATH=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/]
@@ -479,9 +479,9 @@ events:
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [Linking CXX executable cmTC_57a4e.elf]
-        ignore line: ["C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe" -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v "CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj"  -o cmTC_57a4e.elf]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [Linking CXX executable cmTC_21486.elf]
+        ignore line: ["C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe" -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v "CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj"  -o cmTC_21486.elf]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=c:/program\\ files/raspberry\\ pi/pico\\ sdk\\ v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
@@ -500,12 +500,12 @@ events:
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_57a4e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccJyYx2n.res --sysroot=c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_57a4e.elf -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_57a4e.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_21486.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\hyunk\\AppData\\Local\\Temp\\ccJc4Mfi.res --sysroot=c:\\program files\\raspberry pi\\pico sdk v1.5.1\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_21486.elf -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_21486.dir/CMakeCXXCompilerABI.cpp.obj]
         ignore line: [c:/program files/raspberry pi/pico sdk v1.5.1/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_57a4e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [make.exe[1]: Leaving directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-4xwukb']
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_21486.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [make.exe[1]: Leaving directory `C:/Users/hyunk/OneDrive/Documents/GitHub/ME-433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-c24cr1']
         ignore line: []
         ignore line: []
         implicit libs: []
